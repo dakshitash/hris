@@ -11,7 +11,7 @@ public class Login1 {
 
 		driver.findElement(By.className("icon-lock")).click();
 		driver.findElement(By.id("txtUserName")).sendKeys("dakshitasharma");
-		driver.findElement(By.id("txtPassword")).sendKeys("Dakshita@321#");
+		driver.findElement(By.id("txtPassword")).sendKeys("Dakshita");
 		driver.findElement(By.name("Submit")).click();
 		driver.findElement(By.className("user-image")).click();
 		hardWait(2000);
